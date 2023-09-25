@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,300&family=Mooli&family=Oswald:wght@600&family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav">
+        <div class="brands">
+        <img src="./img/spotify-logo.png" id="brand">
+        <h2>Spotify</h2>
+        </div>
+        <ul>
+           
+           <li><a href="">Home</a></li>
+           <li><a href="">About</a></li> 
+        </ul>
+    </div>
+    <div class="container">
+        
+        <div class="songlist">
+            <h1>Best of Weeknd</h1>
+        <div class="songitemcontainer">
+            <div class="songitem">
+                 <img src="https://upload.wikimedia.org/wikipedia/en/3/39/The_Weeknd_-_Starboy.png" alt="1">
+                 <span class="songname">The Weeknd - Starboy</span>
+                 <span class="songlistplay"><span class="timestamp">3:51</span> <i id="0" class="songitemplay ri-play-fill" ></i></span>
+            </div>
+            <div class="songitem">
+                <img src="https://www.koimoi.com/wp-content/new-galleries/2023/07/the-weeknd-reflects-on-bumpy-ride-after-the-idol-finale-001.jpg" alt="1">
+                <span class="songname">The Weeknd - Popular</span>
+                <span class="songlistplay"><span class="timestamp">3:35</span> <i id="1" class="songitemplay ri-play-fill"  ></i></span>
+           </div>
+           <div class="songitem">
+            <img src="https://i.pinimg.com/originals/2b/06/c2/2b06c21fd8c7ab5142ed5f1520179544.jpg" alt="1">
+            <span class="songname">The Weeknd - Die For You</span>
+            <span class="songlistplay"><span class="timestamp">4:20</span> <i  id="2"class="songitemplay ri-play-fill" ></i></span>
+          </div>
+          <div class="songitem">
+            <img src="https://i.ytimg.com/vi/VYsr8v1jMHI/maxresdefault.jpg" alt="1">
+            <span class="songname">The Weeknd - Creepin</span>
+            <span class="songlistplay"><span class="timestamp">3:41</span> <i id="3" class="songitemplay ri-play-fill "  ></i></span>
+          </div>
+          <div class="songitem">
+            <img src="https://consequence.net/wp-content/uploads/2021/08/the-weeknd-blinding-lights-record.jpg?quality=80&w=1031&h=580&crop=1&resize=1031%2C580&strip" alt="1">
+            <span class="songname">The Weeknd - Blinding Lights</span>
+            <span class="songlistplay"><span class="timestamp">3:20</span> <i id="4" class="songitemplay ri-play-fill"  ></i></span>
+          </div>
+          <div class="songitem">
+            <img src="https://upload.wikimedia.org/wikipedia/it/d/db/The_Weeknd_-_Save_Your_Tears.png" alt="1">
+            <span class="songname">The Weeknd - Save your tears</span>
+            <span class="songlistplay"><span class="timestamp">3:37</span> <i id="5" class="songitemplay ri-play-fill"  ></i></span>
+          </div>
+          <div class="songitem">
+            <img src="https://images.genius.com/c0458687192fc7866fe1c97de6152c11.1000x1000x1.jpg" alt="1">
+            <span class="songname">The Weeknd - Is there someone else</span>
+            <span class="songlistplay"><span class="timestamp">3:20</span> <i id="6" class="songitemplay ri-play-fill"  ></i></span>
+          </div>
+
+        </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" id="progressbar" value="0" name="range" min="0" max="100">
+        <div class="icons">
+            
+        <i class="ri-skip-left-fill" id="prev"></i>
+       <i class="ri-play-fill" id="masterplay"></i>
+        <i class="ri-skip-right-fill" id="next"></i>
+        <i class="ri-infinity-line" id="loop"></i>
+        </div>
+        <div class="songinfo">
+            <img src="https://i.pinimg.com/originals/c6/c1/1d/c6c11d8ba0b9f26caf0a6a8ee3a3e78e.gif" width="120px"alt="" id="gid"><span id="songinfoname">The Weeknd-Starboy</span>
+        </div>
+        
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
